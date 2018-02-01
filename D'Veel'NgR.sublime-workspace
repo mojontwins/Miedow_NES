@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PLAYER_V_R",
+				"PLAYER_V_REBOUND_MULTI"
+			],
+			[
+				"SFX_",
+				"SFX_RING\t(definitions.h)"
+			],
+			[
+				"PLAYER_G",
+				"PLAYER_GENITAL\t(definitions.h)"
+			],
+			[
+				"player_push_",
+				"player_push_box"
+			],
+			[
+				"PUSH",
+				"PUSH_BOX_BITS\t(definitions.h)"
+			],
+			[
+				"PUSH_BO",
+				"PLAYER_PUSH_BOXES"
+			],
+			[
+				"player_",
+				"player_push_bolt"
+			],
+			[
+				"KEY",
+				"HOTSPOT_TYPE_KEY"
+			],
+			[
+				"SFX_BUT",
+				"SFX_BUTT_HIT"
+			],
+			[
+				"FLOATY",
+				"FLOATY_PUSH_BOXES_KILL\t(definitions.h)"
+			],
+			[
+				"fpb_sl",
+				"fpb_slot\t(globals.h)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dev/definitions.h",
+			"settings":
+			{
+				"buffer_size": 22677,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/engine/general.h",
+			"settings":
+			{
+				"buffer_size": 942,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/game.c",
+			"settings":
+			{
+				"buffer_size": 3265,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/na_th/Desktop/git/MK1_NES/examples/07_sir_ababol_dx_it1/dev/labels.txt",
+			"settings":
+			{
+				"buffer_size": 18952,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 145.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/gfx",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/map"
+	],
+	"file_history":
+	[
+		"/C/Users/na_th/Desktop/git/MK1_NES/examples/07_sir_ababol_dx_it1/utils/legacy/enexpander2.bas",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/diario.md",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/explosions.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/crt0-CNROM.s",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/player.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/sounds.s",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/definitions.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/bolts.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/ram/bss.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/game.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/labels.txt",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/assets/levelset.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/tofix.md",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/gfx/ts3.png",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/design.md",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/game.c",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/hotspots.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/assets/behs.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/bullets.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/enems.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/assets/chr-rom-maps.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/enemmods/enem_precalc_fanty.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/printer.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/map/maplist.txt",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/neslib-CNROM.s",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/assets/precalcs.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/mainloop/flick_screen.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/neslib-CNROM.h",
+		"/C/Users/na_th/Desktop/git/nes_work/espinete/dev/neslib-pantanow-CNROM.s",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/assets/metasprites.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/gfx/cut_patterns_0.spt",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/enemmods/enem_type_7.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/general.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/ram/zp.h",
+		"/C/Users/na_th/Desktop/git/nes_work/D'Veel'NgR/dev/engine/hud.h",
+		"/E/Temp/Installers/(www.MuhammadNiaz.Net) Adobe Photoshop 7.0/Serial.txt",
+		"/C/Users/na_th/Desktop/git/newspectrum/CherilP/dev/definitions.h",
+		"/C/z88dk10/lib/config/cpc.cfg"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+			"C:\\Users\\na_th\\Desktop\\git\\nes_work\\D'Veel'NgR\\dev"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pal",
+			"rain_intmaxct",
+			"al",
+			"BOX",
+			"_01_",
+			"_scroll",
+			"scroll",
+			"substract_1_from_y",
+			"(AT\\d & )(BOLT|PUSH_BOX)_BITS",
+			"BOLT_BITS",
+			";\n",
+			"V_REBOUND",
+			"CENTER",
+			"ppu_mask",
+			"sprid",
+			"pad0",
+			"pfixct",
+			"bsignal",
+			"PLAYER_PROCESS_BLOCK",
+			"player_process_block",
+			"pfixct",
+			"reset"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"_00_",
+			"prepare_process_block_vars",
+			"(\\1\\2_BITS) == \\2_BITS",
+			"spr_id"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dev/definitions.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 975.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dev/engine/general.h",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								886,
+								646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "dev/game.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/na_th/Desktop/git/MK1_NES/examples/07_sir_ababol_dx_it1/dev/labels.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3899.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "D'Veel'NgR.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

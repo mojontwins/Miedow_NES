@@ -1,0 +1,64 @@
+Quick and dirty reference for mkts in 'scripted' mode.
+======================================================
+
+General commands:
+
+Use these before you do anything, otherwise you must know that stupid scripts do stupid things.
+
+MAPFILE out.h 			- Stuff will be output there
+LABEL label 			- Use as suffix/prefix/infix in labels
+CHAROFFSET c 			- Offset by this quantity in the MAPFILE.
+
+OPEN file.png			- Opens a new file for reading.
+PALS file.png			- Establishes this palette as active [NES]
+PALS ABCD 				- Establishes this palette as active [GB]
+
+Metasprite processing:
+
+METASPRITE X0, Y0, WC, HC, OX, OY [FLIPPED|MIRRORED]
+
+						- X0, Y0: where to cut (in chars)
+						- WC, HC: rectangle size (in chars)
+						- OX, OY: metasprite origin, negative is left/upwards.
+						- FLIPPED: like genflipped.
+						- MIRRORED: Use instead of FLIPPED if your sprite has the origin in the horizontal center.
+
+Plain charset:
+
+CHARSET X0, Y0, WC, HC [, MAX]
+
+						- X0, Y0: where to cut (in chars)
+						- WC, HC: rectangle size (in chars)
+
+Plain row-ordered, 2x2 patterns tilesets
+
+TILESROW2X2 X0, Y0, WC, HC [, MAX]
+
+						- X0, Y0: where to cut (in chars)
+						- WC, HC: rectangle size (in tiles)
+
+Mapped metatilesets:
+
+MAPPED X0, Y0, MTW, MTH, AW, AH [, MAX]
+
+						- X0, Y0: where to cut (in chars)
+						- MTW, MTH: metatile size (in chars)
+						- AW, AH: area size (in metatiles)
+						- MAX: max. metatiles to cut
+
+More to come in the future.
+
+Metaspritesets:
+
+METASPRITESET X0, Y0, MSW, MSH, AW, AH, OX, OY [, MAX] [FLIPPED|MIRRORED]
+
+						- X0, Y0: where to cut (in chars)
+						- MSW, MSH: metasprite size (in chars)
+						- AW, AH: area size (in metatiles)
+						- OX, OY: metasprite origin, negative is left/upwards.
+						- FLIPPED: like genflipped.
+						- MIRRORED: Use instead of FLIPPED if your sprite has the origin in the horizontal center.
+
+Texts:
+
+TEXTS X0, Y0, AW, AH, 

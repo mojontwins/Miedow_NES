@@ -1,0 +1,113 @@
+# BANK 0: BG
+
+# Font
+OPEN font.png
+PALS paltsi.png
+CHARSET 0, 0, 32, 2
+
+# We don't need tilemaps for a while
+MAPFILE ..\dev\work\dummy.h
+
+# Hud
+OPEN hud.png
+PALS paltsi.png
+LABEL hud
+MAPPED 0, 0, 2, 2, 16, 2
+
+# Those tilemaps *are* needed :-)
+MAPFILE ..\dev\assets\tiledata.h
+
+OPEN ts0_compo.png
+PALS paltsi.png
+LABEL ts0
+MAPPED 0, 0, 2, 2, 16, 2
+
+OPEN ts1_compo.png
+PALS paltsi.png
+LABEL ts1
+MAPPED 0, 0, 2, 2, 16, 2
+
+OPEN ts2.png
+PALS paltsi.png
+LABEL ts2
+MAPPED 0, 0, 2, 2, 16, 2
+
+OPEN ts3.png
+PALS paltsi.png
+LABEL ts3
+MAPPED 0, 0, 2, 2, 16, 2
+
+OPEN ts4_compo.png
+PALS paltsi.png
+LABEL ts4
+MAPPED 0, 0, 2, 2, 16, 2
+
+OPEN ts5.png
+PALS paltsi.png
+LABEL ts5
+MAPPED 0, 0, 2, 2, 16, 2
+
+# Fill up
+FILL 4096
+
+# Reset
+RESETPOOL
+
+# BANK 1: SPRITES
+
+MAPFILE ..\dev\assets\spritedata.h
+
+OPEN ss_compo.png
+PALS palss0.png
+
+# Bits
+CHARSET 1, 21, 2, 1
+
+# Power ball
+CHARSET 1, 22, 8, 1
+
+# Rain
+CHARSET 3, 21, 4, 1
+
+# Shine
+CHARSET 7, 21, 4, 1
+
+# Cursor
+CHARSET 9, 22, 1, 1
+
+# Main player
+NOSKIPEMPTY
+LABEL sspl
+METASPRITESET 1, 1, 2, 3, 7, 5, -4, -8, 30
+
+LABEL ssplh
+METASPRITE 9, 13, 2, 3, -4, -8
+METASPRITE 11, 13, 2, 3, -4, -4
+METASPRITE 13, 13, 2, 3, -4, 0
+
+LABEL sssleep
+METASPRITE 5, 14, 3, 2, -12, -16
+METASPRITE 15, 13, 2, 3, -4, -8
+METASPRITE 5, 14, 3, 2, -12, 4
+
+# Enems
+SKIPEMPTY
+LABEL ssena
+METASPRITESET 1, 16, 2, 3, 10, 1, 0, -8 FLIPPED
+LABEL ssenb
+METASPRITESET 1, 19, 2, 2, 5, 1, 0, 0
+
+# Explosion
+LABEL ssexpl
+METASPRITESET 11, 19, 2, 2, 4, 1, 0, 0
+
+# Hotspots
+LABEL ssita
+METASPRITESET 15, 1, 2, 4, 4, 1, 0, -16
+LABEL ssitb
+METASPRITESET 23, 1, 2, 2, 3, 1, 0, 0
+LABEL ssitc
+METASPRITESET 23, 3, 3, 2, 1, 1, -4, 0
+
+# Fill up
+FILL 8192

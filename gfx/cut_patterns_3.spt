@@ -1,0 +1,53 @@
+# BANK 0: CUTS1
+
+# Font
+OPEN font.png
+PALS paltsi.png
+CHARSET 0, 0, 32, 2
+
+# We don't need tilemaps for a while
+MAPFILE ..\dev\work\dummy2.h
+
+# Cuts
+OPEN cuts0.png
+PALS palcuts0.png
+LABEL cuts0
+MAPPED 0, 0, 2, 2, 16, 15
+
+# Title bg
+OPEN title_bg.png
+PALS paltstitle.png
+LABEL title
+MAPPED 0, 0, 2, 2, 16, 15
+
+# Fill up
+FILL 4096
+
+# Reset
+RESETPOOL
+
+# BANK 1: CUTS2
+
+# Font
+OPEN font.png
+PALS paltsi.png
+CHARSET 0, 0, 32, 2
+
+# We don't need tilemaps for a while
+MAPFILE ..\dev\work\dummy3.h
+
+# Intro
+OPEN intro.png
+PALS palcuts0.png
+LABEL intro
+MAPPED 0, 0, 2, 2, 16, 15
+
+# Title fg
+OPEN title_fg.png
+PALS palsstitle.png
+MAPFILE ..\dev\assets\spritedata2.h
+LABEL title_fg
+METASPRITE 0, 0, 7, 6, -2, 0
+
+# Fill up
+FILL 8192
